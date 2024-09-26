@@ -9,5 +9,6 @@ require 'app/server'
 
 Server.configure
 
-BlueFactory::Server.set :port, 3000
+BlueFactory::Server.set :port, 4000
+BlueFactory::Server.set :bind, '0.0.0.0'
 BlueFactory::Server.run!
